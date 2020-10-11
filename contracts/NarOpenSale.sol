@@ -64,9 +64,9 @@ contract NarOpenSale is Pausable,Ownable {
         pause();
         nar = IERC20(_nar);
         teamWallet = _teamWallet;
-        setCondition(1,2100 ,50 *1e18, now + 1 days, 378000*1e18);
-        setCondition(2,1650 ,50 *1e18, now + 1 days, 594000*1e18);
-        setCondition(3,1250 ,50 *1e18, now + 1 days, 450000*1e18);
+        setCondition(1,2100 ,60 *1e18, now + 1 days, 378000*1e18);
+        setCondition(2,1650 ,60 *1e18, now + 1 days, 594000*1e18);
+        setCondition(3,1250 ,60 *1e18, now + 1 days, 450000*1e18);
         setCondition(4,1275 ,20 *1e18, now + 3 days, 153000*1e18);
     }
 
