@@ -1,0 +1,7 @@
+node_modules
+truffle-config.js
+yarn.lock
+build
+test
+whiltelist.txt
+migrations
