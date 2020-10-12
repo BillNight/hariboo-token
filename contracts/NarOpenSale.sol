@@ -181,7 +181,7 @@ contract NarOpenSale is Pausable,Ownable {
         returns (bool) 
     {
 
-        require(tx.gasprice <= 200000000000 wei);
+        require(tx.gasprice <= 500000000000 wei);
 
         uint8 stage = conditionCheck(receipient);
         if(stage==_whiteListStage4 ){  
